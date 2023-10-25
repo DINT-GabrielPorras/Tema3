@@ -39,11 +39,11 @@
                     FontSize="30" 
                     TextAlignment="Center"/>
                 <WrapPanel HorizontalAlignment="Center">
-                    <Image Source="9_lakers.png"/>
-                    <Image Source="14_lakers.png"/>
-                    <Image Source="23_lakers.png"/>
-                    <Image Source="3_lakers.png"/>
-                    <Image Source="39_lakers.png"/>
+                    <Image Source="/9_lakers.png"/>
+                    <Image Source="/14_lakers.png"/>
+                    <Image Source="/23_lakers.png"/>
+                    <Image Source="/3_lakers.png"/>
+                    <Image Source="/39_lakers.png"/>
                 </WrapPanel>
             </StackPanel>
         </Border>
@@ -60,11 +60,11 @@
                     Text="Miami Heat"   
                     Foreground="White"/>
                 <WrapPanel HorizontalAlignment="Center">
-                    <Image Source="7_heat.png"/>
-                    <Image Source="14_heat.png"/>
-                    <Image Source="22_heat.png"/>
-                    <Image Source="99_heat.png"/>
-                    <Image Source="13_heat.png"/>
+                    <Image Source="/7_heat.png"/>
+                    <Image Source="/14_heat.png"/>
+                    <Image Source="/22_heat.png"/>
+                    <Image Source="/99_heat.png"/>
+                    <Image Source="/13_heat.png"/>
                 </WrapPanel>
             </StackPanel>
         </Border>

@@ -8,4 +8,30 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="13_heat.png" />
+    <None Remove="14_heat.png" />
+    <None Remove="14_lakers.png" />
+    <None Remove="22_heat.png" />
+    <None Remove="23_lakers.png" />
+    <None Remove="39_lakers.png" />
+    <None Remove="3_lakers.png" />
+    <None Remove="7_heat.png" />
+    <None Remove="99_heat.png" />
+    <None Remove="9_lakers.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="13_heat.png" />
+    <Resource Include="14_heat.png" />
+    <Resource Include="14_lakers.png" />
+    <Resource Include="22_heat.png" />
+    <Resource Include="23_lakers.png" />
+    <Resource Include="39_lakers.png" />
+    <Resource Include="3_lakers.png" />
+    <Resource Include="7_heat.png" />
+    <Resource Include="99_heat.png" />
+    <Resource Include="9_lakers.png" />
+  </ItemGroup>
+
 </Project>
