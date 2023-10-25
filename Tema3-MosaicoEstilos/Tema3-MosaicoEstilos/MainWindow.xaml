@@ -1,0 +1,30 @@
+﻿<Window x:Class="Tema3_MosaicoEstilos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3_MosaicoEstilos"
+        mc:Ignorable="d"
+        Title="Mosaico con estilos" Height="550" Width="900">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBlock}" x:Key="Horizontal">
+            <Setter Property="Height" Value="100"/>
+        </Style>
+        <Style TargetType="{x:Type TextBlock}" x:Key="Vertical">
+            <Setter Property="Width" Value="100"/>
+        </Style>
+    </Window.Resources>
+    
+    <DockPanel LastChildFill="True">
+        <TextBlock Style="{StaticResource Horizontal}" x:Name="arriba" DockPanel.Dock="Top" Background="Purple"/>
+        <TextBlock Style="{StaticResource Vertical}" x:Name="izquierda" DockPanel.Dock="Left" Background="Purple"/>
+        <TextBlock Style="{StaticResource Horizontal}" x:Name="abajo" DockPanel.Dock="Bottom" Background="Green"/>
+        <TextBlock Style="{StaticResource Vertical}" x:Name="derecha" DockPanel.Dock="Right" Background="Green"/>
+        <TextBlock Style="{StaticResource Vertical}" x:Name="interiorIzquierda" DockPanel.Dock="Left" Background="Orange"/>
+        <TextBlock Style="{StaticResource Horizontal}" x:Name="interiorAbajo" DockPanel.Dock="Bottom" Background="Orange"/>
+        <TextBlock Style="{StaticResource Vertical}" x:Name="interiorDerecha" DockPanel.Dock="Right" Background="Pink"/>
+        <TextBlock Style="{StaticResource Horizontal}" x:Name="interiorArriba" DockPanel.Dock="Top" Background="Pink"/>
+        <TextBlock x:Name="centro" Background="Black"/>
+    </DockPanel>
+</Window>
